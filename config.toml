@@ -1,8 +1,8 @@
 baseURL = "https://indigraphs.wiki/"
 languageCode = "en-us"
-theme = "hugo-winston-theme"
+theme = ["hugo-chart", "hugo-winston-theme"]
 themesDir = "themes"
-title = "Hugo Winston Theme"
+title = "IndiGraphs.wiki"
 paginate = 3
 pygmentsCodeFences = true
 pygmentsCodefencesGuessSyntax = true
@@ -15,8 +15,8 @@ pygmentsUseClasses = true
 
 [params]
   google_analytics_id = ""
-  twitter_handle = "@zerostaticio"
-  showAuthorOnHomepage = true
+  twitter_handle = ""
+  showAuthorOnHomepage = false
   showAuthorOnPosts = false
   showIntroContentOnHomepage = true
   showPostsOnHomepage = false
@@ -25,12 +25,12 @@ pygmentsUseClasses = true
   sortPostsByDateOldestFirst = false
   addDot = true
   addFrame = true
-  highlightColor = '#7b16ff'
+  highlightColor = '#679186'
   baseColor = "#ffffff"
   baseOffsetColor = "#eaeaea"
-  headingColor = "#1c1b1d"
+  headingColor = "#264e70"
   textColor = "#4e5157"
-  dotColor = "#7b16ff"
+  dotColor = "#f9b4ab"
   enableGoogleFonts = true 
   googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
   fontFamilyHeading = "Poppins"
@@ -52,8 +52,8 @@ pygmentsUseClasses = true
     url = '/'
     weight = 1
   [[menu.main]]
-    name = "Blog"
-    identifier = "blog"
+    name = "Posts"
+    identifier = "Posts"
     weight = 2
     url = "/posts/"
   [[menu.main]]
