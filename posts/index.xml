@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Hugo Winston Theme</title>
+    <title>Posts on IndiGraphs.wiki</title>
     <link>https://indigraphs.wiki/posts/</link>
-    <description>Recent content in Blog on Hugo Winston Theme</description>
+    <description>Recent content in Posts on IndiGraphs.wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 24 Feb 2019 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://indigraphs.wiki/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Testing Post</title>
+      <link>https://indigraphs.wiki/posts/test/</link>
+      <pubDate>Thu, 15 Feb 2024 19:16:47 +0530</pubDate>
+      <guid>https://indigraphs.wiki/posts/test/</guid>
+      <description>This is a testing Post I use this to test formating and features. </description>
+    </item>
     <item>
       <title>The revolution will be complete when the language is perfect</title>
       <link>https://indigraphs.wiki/posts/language-perfect/</link>

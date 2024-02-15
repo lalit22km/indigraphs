@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>You don&#39;t start out writing good stuff on Hugo Winston Theme</title>
+    <title>We, in numbers on IndiGraphs.wiki</title>
     <link>https://indigraphs.wiki/</link>
-    <description>Recent content in You don&#39;t start out writing good stuff on Hugo Winston Theme</description>
+    <description>Recent content in We, in numbers on IndiGraphs.wiki</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 15 Feb 2024 19:16:47 +0530</lastBuildDate>
     <atom:link href="https://indigraphs.wiki/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test</title>
-      <link>https://indigraphs.wiki/docs/test/</link>
+      <title>Testing Post</title>
+      <link>https://indigraphs.wiki/posts/test/</link>
       <pubDate>Thu, 15 Feb 2024 19:16:47 +0530</pubDate>
-      <guid>https://indigraphs.wiki/docs/test/</guid>
-      <description>Testing</description>
+      <guid>https://indigraphs.wiki/posts/test/</guid>
+      <description>This is a testing Post I use this to test formating and features. </description>
     </item>
     <item>
       <title>The revolution will be complete when the language is perfect</title>
