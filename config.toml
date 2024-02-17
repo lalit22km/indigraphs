@@ -1,68 +1,113 @@
-baseURL = "https://indigraphs.wiki/"
-languageCode = "en-us"
-theme = ["hugo-chart", "hugo-winston-theme"]
-themesDir = "themes"
-title = "IndiGraphs.wiki"
-paginate = 3
-pygmentsCodeFences = true
-pygmentsCodefencesGuessSyntax = true
-pygmentsUseClasses = true
+# THIS IS AN EXAMPLE ON HOW YOU SHOULD CONFIGURE YOUR hugo.toml
+# See this hugo.toml in action at https://github.com/1bl4z3r/hermit-V2/blob/staging/hugo.toml
+# Example Site is Staging branch, acessible at https://github.com/1bl4z3r/hermit-V2/tree/staging
+# To see what each config does, refer to https://1bl4z3r.github.io/hermit-V2/en/posts/explaining-configs/
+# Open Issue or Pull Request at https://github.com/1bl4z3r/hermit-V2
 
-[module]
-  [module.hugoVersion]
-    extended = true
-    min = "0.55.0"
+baseURL = "https://indigraphs.wiki/"
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = true
+theme = ["hugo-chart", "hermit-v2"]
+
+[languages]
+ [languages.en]
+  title = 'IndiGraphs.Wiki'
+ [languages.en.params]
+    homeSubtitle = "IndiGraphs is An Open Source repository of common data depicted through clear and informative graphs and infographics."
+ weight = 1
+#  [languages.fr]
+#    title = 'CHANGE ME(FR)'
+#    [languages.fr.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 2
+#  [languages.it]
+#    title = 'CHANGE ME(IT)'
+#    [languages.it.params]
+#      homeSubtitle = "CHANGE ME"
+#    weight = 3
+ 
+languageCode = "en-us"
+
+# title = "CHANGE ME"
+# enableGitInfo = true
+
+pygmentsCodefences  = true
+pygmentsUseClasses  = true
+#hasCJKLanguage = true
+
+rssLimit = 10
+
+copyright = "CHANGE ME"
+enableEmoji = true
+
+# googleAnalytics = "UA-123-45"
+# disqusShortname = "CHANGE ME"
+
+#[params.author]
+ # name = "CHANGE SITE AUTHOR"
+  #about = "CHANGE SITE AUTHOR ABOUT"
+
+[blackfriday]
+  # hrefTargetBlank = true
+  # noreferrerLinks = true
+  # nofollowLinks = true
+
+[taxonomies]
+  tag = "tags"
+  # Categories are disabled by default.
+  # category = "categories"
 
 [params]
-  google_analytics_id = ""
-  twitter_handle = ""
-  showAuthorOnHomepage = false
-  showAuthorOnPosts = false
-  showIntroContentOnHomepage = true
-  showPostsOnHomepage = false
-  usePaginationOnHomepage = false
-  limitPostsOnHomepage = 3 # only used if usePaginationOnHomepage is false
-  sortPostsByDateOldestFirst = false
-  addDot = true
-  addFrame = true
-  highlightColor = '#679186'
-  baseColor = "#ffffff"
-  baseOffsetColor = "#eaeaea"
-  headingColor = "#264e70"
-  textColor = "#4e5157"
-  dotColor = "#f9b4ab"
-  enableGoogleFonts = true 
-  googleFontsUrl = "https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
-  fontFamilyHeading = "Poppins"
-  fontFamilyParagraph = "Helvetica"
-  fontFamilyMonospace = "monospace"
+  dateform        = "Jan 2, 2006"
+  dateformShort   = "Jan 2"
+  dateformNum     = "2006-01-02"
+  dateformNumTime = "2006-01-02 15:04 -0700"
 
-# markdown config settings https://gohugo.io/getting-started/configuration-markup/#goldmark
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      hardWraps = false
-      unsafe = true
-      xhtml = false
+  description = "CHANGE ME SITE DESCRIPTION"
+  # images = [""]
+  themeColor = "#494f5c"
+
+  homeSubtitle = "Made and maintained by and for Indians"
+  footerCopyright = "IndiGraphs.Wiki"
+  # bgImg = ""
+  # gitUrl = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
+
+  justifyContent = false
+
+  relatedPosts = true
+  code_copy_button = true
+
+  homeSubtitlePrinter = true
+  scrollToTop = true 
+  global_mathjax = false
+  readTime = true
+  readTimeSeparator = "CHANGE ME READ TIME"
+  # legacyLayout = false
+  shareSocial = true
+  # googleTagManager = "GTM-XXXXXXXX"
+  # tagSymbol = "#"
+  # categorySymbol = "⊲"
+  
+  [[params.socialLinks]]
+    name = "mastodon"
+    url = "https://joinmastodon.org/"
+
+  [[params.socialLinks]]
+    name = "x"
+    url = "https://twitter.com/"
+
+  [[params.socialLinks]]
+    name = "github"
+    url = "https://github.com/1bl4z3r/hermit-V2/tree/staging"
 
 [menu]
-  [[menu.main]]
-    identifier = 'home'
-    name = 'Home'
-    url = '/'
-    weight = 1
+
   [[menu.main]]
     name = "Posts"
-    identifier = "Posts"
-    weight = 2
-    url = "/posts/"
+    url = "posts/"
+    weight = 10
+
   [[menu.main]]
     name = "About"
-    identifier = "about"
-    weight = 3
-    url = "/About/"
-  [[menu.main]]
-    name = "Tags"
-    identifier = "tags"
-    weight = 4
-    url = "/tags/"
+    url = "about/"
+    weight = 20

@@ -7,3 +7,10 @@
 [submodule "themes/hugo-chart"]
 	path = themes/hugo-chart
 	url = https://github.com/Shen-Yu/hugo-chart.git
+[submodule "themes/lightbi-hugo"]
+	path = themes/lightbi-hugo
+	url = https://github.com/binokochumolvarghese/lightbi-hugo
+[submodule "themes/hermit-v2"]
+	path = themes/hermit-v2
+	url = https://github.com/1bl4z3r/hermit-V2
+	branch = main
