@@ -11,27 +11,23 @@ draft = false
 {
     type: 'line',
     data: {
-        labels: ['Red', 'Blue', 'Yellow', 'Green', 'Purple', 'Orange'],
+        labels: ['2000', '2008', '2015', '2023'],
         datasets: [{
-            label: 'Bar Chart',
-            data: [12, 19, 18, 16, 13, 14],
+            label: 'India\'s GHI Score',
+            data: [38.4, 35.5, 29.2, 28.7],
             backgroundColor: [
-                'rgba(255, 99, 132, 0.2)',
-                'rgba(54, 162, 235, 0.2)',
-                'rgba(255, 206, 86, 0.2)',
-                'rgba(75, 192, 192, 0.2)',
-                'rgba(153, 102, 255, 0.2)',
-                'rgba(255, 159, 64, 0.2)'
+                'rgba(255, 99, 132, 0.2)'
             ],
             borderColor: [
                 'rgba(255, 99, 132, 1)',
-                'rgba(54, 162, 235, 1)',
-                'rgba(255, 206, 86, 1)',
-                'rgba(75, 192, 192, 1)',
-                'rgba(153, 102, 255, 1)',
-                'rgba(255, 159, 64, 1)'
+                'rgba(255, 99, 132, 1)',
+                'rgba(255, 99, 132, 1)',
+                'rgba(255, 99, 132, 1)'
             ],
-            borderWidth: 1
+            borderWidth: 5,
+            pointBorderWidth: 5,
+            pointHoverBorderWidth: 10,
+            
         }]
     },
     options: {
@@ -39,7 +35,9 @@ draft = false
         scales: {
             yAxes: [{
                 ticks: {
-                    beginAtZero: true
+                    beginAtZero: false,
+                    min: 25,
+                    max: 45
                 }
             }]
         }
