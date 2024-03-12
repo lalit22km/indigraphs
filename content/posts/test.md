@@ -7,6 +7,8 @@ draft = false
 # This is a testing Post
 ## I use this to test formating and features.
 
+The charts are working properly now.
+
 {{< chart 90 200 >}}
 {
     type: 'line',
