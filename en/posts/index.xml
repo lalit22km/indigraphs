@@ -14,10 +14,12 @@
 			<pubDate>Thu, 15 Feb 2024 19:16:47 +0530</pubDate>
 			
 			<guid>https://indigraphs.wiki/en/posts/test/</guid>
-			<description>This is a testing Post I use this to test formating and features. This is what I&amp;rsquo;ve been making for the last few days.
+			<description>This is a testing Post I use this to test formating and features. The charts are working properly now.
+This is what I&amp;rsquo;ve been making for the last few days.
 Endline test </description>
 			<content type="html"><![CDATA[<h1 id="this-is-a-testing-post">This is a testing Post</h1>
 <h2 id="i-use-this-to-test-formating-and-features">I use this to test formating and features.</h2>
+<p>The charts are working properly now.</p>
 
 
 
@@ -25,11 +27,11 @@ Endline test </description>
 
 
 <div style="width: 90%;height: 200px;margin: 0 auto">
-    <canvas id="f45bf5dd2f8a1c44c6c4ddcaec8ce8bc"></canvas>
+    <canvas id="6efa8fcab2dbc584c4f84ccd5c4e1ddc"></canvas>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/chart.js/dist/Chart.min.js"></script>
 <script type="text/javascript">
-    var ctx = document.getElementById('f45bf5dd2f8a1c44c6c4ddcaec8ce8bc').getContext('2d');
+    var ctx = document.getElementById('6efa8fcab2dbc584c4f84ccd5c4e1ddc').getContext('2d');
     var options = 
 {
     type: 'line',
