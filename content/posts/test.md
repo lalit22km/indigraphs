@@ -9,43 +9,15 @@ draft = false
 
 The charts are working properly now.
 
-{{< chart 90 200 >}}
-{
-    type: 'line',
-    data: {
-        labels: ['2000', '2008', '2015', '2023'],
-        datasets: [{
-            label: 'India\'s GHI Score',
-            data: [38.4, 35.5, 29.2, 28.7],
-            backgroundColor: [
-                'rgba(255, 99, 132, 0.2)'
-            ],
-            borderColor: [
-                'rgba(255, 99, 132, 1)',
-                'rgba(255, 99, 132, 1)',
-                'rgba(255, 99, 132, 1)',
-                'rgba(255, 99, 132, 1)'
-            ],
-            borderWidth: 5,
-            pointBorderWidth: 5,
-            pointHoverBorderWidth: 10,
-            
-        }]
-    },
-    options: {
-        maintainAspectRatio: false,
-        scales: {
-            yAxes: [{
-                ticks: {
-                    beginAtZero: false,
-                    min: 25,
-                    max: 45
-                }
-            }]
-        }
-    }
-}
-{{< /chart >}}
+<div style="position: relative; width: 100%; height: 0; padding-top: 75.0000%;
+ padding-bottom: 0; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+ border-radius: 8px; will-change: transform;">
+  <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+    src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF_lp5qjwg&#x2F;15wXTGJt0amOsNGgAzkwoQ&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+  </iframe>
+</div>
+<a href="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAF_lp5qjwg&#x2F;15wXTGJt0amOsNGgAzkwoQ&#x2F;view?utm_content=DAF_lp5qjwg&amp;utm_campaign=designshare&amp;utm_medium=embeds&amp;utm_source=link" target="_blank" rel="noopener">Design</a> by Lalit Kumar
+
 
 This is what I've been making for the last few days.
 # Endline test

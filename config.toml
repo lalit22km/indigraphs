@@ -111,3 +111,6 @@ enableEmoji = true
     name = "About"
     url = "about/"
     weight = 20
+    
+[markup.goldmark.renderer]
+  unsafe = true # Allow HTML in md files
